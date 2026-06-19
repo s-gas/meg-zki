@@ -1,8 +1,10 @@
+import { useState, useEffect } from 'react'
 import './Button.css'
 
-const StarSvg = () => {
+const StarSvg = (props) => {
   return (
     <svg
+      {...props}
       xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -18,11 +20,23 @@ const StarSvg = () => {
 }
 
 const ButtonGif = () => {
+  const [rotation, setRotation] = useState(0);
+
+  const handleScroll = () => {
+    setRotation(window.scrollY * 0.2);
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, []);
+
   return (
     <button className="button">
-      <StarSvg />
+      <StarSvg style={{ transform: `rotate(${rotation + 22}deg)` }}/>
     </button>
-  )
+  );
 }
 
 export default ButtonGif
