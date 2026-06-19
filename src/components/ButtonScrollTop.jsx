@@ -1,3 +1,5 @@
+import './ButtonScrollTop.css'
+
 const handleScrollTop = () => {
   window.scrollTo({
     top: 0,
@@ -8,7 +10,7 @@ const handleScrollTop = () => {
 const ButtonScrollTop = (props) => {
   const {className, text} = props;
   return (
-    <button className={className} onClick={handleScrollTop}>{text}</button>
+    <button className="button-scroll-top" onClick={handleScrollTop}>{text}</button>
   )
 }
 

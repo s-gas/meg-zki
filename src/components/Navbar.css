@@ -1,3 +1,18 @@
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.info-time {
+  display: flex;
+  gap: 40px;
+}
+
 .star {
   width: 20px;
   heigth: 20px;

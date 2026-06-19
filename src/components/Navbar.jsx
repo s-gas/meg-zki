@@ -41,8 +41,10 @@ const Star = () => {
 const Navbar = () => {
   return (
     <div className="navbar">
-      <Info />
-      <Time />
+      <div className="info-time">
+        <Info />
+        <Time />
+      </div>
       <Star /> 
     </div>
   )
