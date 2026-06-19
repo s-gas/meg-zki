@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import starImg from '../assets/star.png'
 import './Navbar.css'
 import ButtonScrollTop from './ButtonScrollTop'
+import ButtonGif from './ButtonGif'
 
 const Info = () => {
   return (
@@ -34,9 +34,6 @@ const Time = () => {
   )
 }
 
-const Star = () => {
-  return <img className="star" src={starImg} alt="star" />
-}
 
 const Navbar = () => {
   return (
@@ -45,7 +42,7 @@ const Navbar = () => {
         <Info />
         <Time />
       </div>
-      <Star /> 
+      <ButtonGif /> 
     </div>
   )
 }

@@ -1,3 +1,11 @@
+:root {
+  --text-primary: #0A0A0A;
+  --text-secondary: #888888;
+  --text-hover: #5A5A5A;
+
+  --bg-primary: #E2E2E2;
+}
+
 *,
 *::before,
 *::after {
@@ -8,5 +16,7 @@
 
 body {
   margin: 20px;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
 }
 
