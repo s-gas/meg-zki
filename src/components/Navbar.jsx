@@ -1,19 +1,12 @@
 import { useState } from 'react'
 import starImg from '../assets/star.png'
 import './Navbar.css'
-
-const handleScrollTop = () => {
-  console.log("scroll top");
-  window.scrollTo({
-    top: 0,
-    behaviour: "smooth",
-  });
-}
+import ButtonScrollTop from './ButtonScrollTop'
 
 const Info = () => {
   return (
     <div className="info">
-      <button className="name" onClick={handleScrollTop}>MEG KRAWIELITZKI</button>
+      <ButtonScrollTop className="name" text="MEG KRAWIELITZKI" />
       <p className="profession">Digital Designer</p>
     </div>
   )
