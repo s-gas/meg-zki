@@ -1,0 +1,12 @@
+.sections {
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr;
+  gap: 120px;
+  padding-top: 120px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

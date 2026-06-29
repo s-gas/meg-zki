@@ -38,9 +38,11 @@ const Awards = () => {
   return (
     <div className="section" id="awards">
       <p className="title">(AWARDS)</p>
-      { awards.map((award) => (
-        <Link key={award.link} text={award.text} link={award.link} />
-      ))}
+      <div>
+        { awards.map((award) => (
+          <div><Link key={award.link} text={award.text} link={award.link} /></div>
+        ))}
+      </div>
       <p className="footer">All awards were earned during my time  working in-house and represent the collective achievements of a whole team (˶ᵔ ᵕ ᵔ˶)</p>
     </div>
   )

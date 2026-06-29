@@ -9,28 +9,6 @@ function App() {
       <Navbar />
       <Main />
       <Sections />
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
-      <p>Lorem eos quos tenetur tenetur cupiditate in. Recusandae cumque iure sapiente excepturi laborum Dicta eius iure ducimus nemo laudantium Quidem laboriosam blanditiis nemo libero odit error? At repudiandae aut aspernatur</p>
       <Footer />
     </>
   )

@@ -1,4 +1,6 @@
 .navbar {
+  font-family: 'Tiempos Headline', serif;
+  font-weight: 300;
   position: fixed;
   top: 20px;
   left: 20px;
