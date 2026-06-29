@@ -1,20 +1,10 @@
 import { useState, useEffect } from 'react'
 import './Button.css'
 
-const StarSvg = (props) => {
+const StarSvg = ({style}) => {
   return (
-    <svg
-      {...props}
-      xmlns:dc="http://purl.org/dc/elements/1.1/"
-      xmlns:cc="http://creativecommons.org/ns#"
-      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-      xmlns:svg="http://www.w3.org/2000/svg"
-      xmlns="http://www.w3.org/2000/svg"
-      width="40" height="40" viewBox="-264 -264 528 528">
-      <polygon transform="scale(1.09,1.09)"
-        points="-36.16358,-87.30662 0,-233.85776 36.16358,-87.30662 165.36241,-165.36241 87.30662,-36.16358 233.85776,0 87.30662,36.16358 165.36241,165.36241 36.16358,87.30662 0,233.85776 -36.16358,87.30662 -165.36241,165.36241 -87.30662,36.16358 -233.85776,0 -87.30662,-36.16358 -165.36241,-165.36241 -36.16358,-87.30662 "
-        fill="currentColor"
-      />
+    <svg style={style} width="32" height="32" viewBox="0 0 320 320" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path d="M320 226.245L218.762 218.762L226.245 320L160 242.971L93.7552 320L101.458 218.762L0 226.245L77.249 160L0 93.7552L101.458 101.458L93.7552 0L160 77.249L226.245 0L218.762 101.458L320 93.7552L242.971 160L320 226.245Z" />
     </svg>
   )
 }
@@ -34,7 +24,7 @@ const ButtonGif = () => {
 
   return (
     <button className="button">
-      <StarSvg style={{ transform: `rotate(${rotation + 22}deg)` }}/>
+      <StarSvg style={{ transform: `rotate(${rotation}deg)` }}/>
     </button>
   );
 }

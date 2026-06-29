@@ -35,15 +35,16 @@ const Awards = () => {
       link: "https://www.thedrum.com/awards-case-study/how-uk-sport-encouraging-more-young-people-diverse-backgrounds-become-olympians",
     },
   ];
+
   return (
     <div className="section" id="awards">
-      <p className="title">(AWARDS)</p>
-      <div>
+      <p className="section-title">(AWARDS)</p>
+      <div className="section-content">
         { awards.map((award) => (
-          <div><Link key={award.link} text={award.text} link={award.link} /></div>
+          <div><Link key={award.link} text={award.text} link={award.link} arrow="true"/></div>
         ))}
       </div>
-      <p className="footer">All awards were earned during my time  working in-house and represent the collective achievements of a whole team (˶ᵔ ᵕ ᵔ˶)</p>
+      <p className="section-footer">All awards were earned during my time  working in-house and represent the collective achievements of a whole team (˶ᵔ ᵕ ᵔ˶)</p>
     </div>
   )
 }

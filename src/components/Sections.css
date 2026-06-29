@@ -1,6 +1,6 @@
 .sections {
   display: grid;
-  grid-template-columns: 3fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 120px;
   padding-top: 120px;
 }
@@ -10,3 +10,27 @@
   flex-direction: column;
   gap: 20px;
 }
+
+.section-title {
+  font-family: 'Tiempos Headline', serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#awards .section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#say-hi .section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section-footer {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
