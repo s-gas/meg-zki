@@ -1,8 +1,8 @@
 .sections {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 120px;
-  padding-top: 120px;
+  gap: 300px;
+  padding-top: 200px;
 }
 
 .section {
