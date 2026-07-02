@@ -58,3 +58,11 @@ body {
   color: var(--color-ink);
   background-color: var(--color-canvas);
 }
+
+.text-stroke {
+  -webkit-text-stroke: 1.4px currentColor;
+}
+
+.no-text-stroke {
+  -webkit-text-stroke: 0px currentColor;
+}
