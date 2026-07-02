@@ -1,3 +1,5 @@
+@import 'tailwindcss';
+
 @font-face {
   font-family: 'Neue Montreal';
   src: url('/fonts/NeueMontreal/PPNeueMontreal-Regular.otf') format('opentype');
@@ -40,27 +42,17 @@
   font-style: italic;
 }
 
-:root {
-  --text-primary: #0A0A0A;
-  --text-secondary: #888888;
-  --text-hover: #5A5A5A;
-
-  --bg-primary: #E2E2E2;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@theme {
+  --color-ink: #0A0A0A;       
+  --color-muted: #888888;     
+  --color-ink-hover: #5A5A5A; 
+  --color-canvas: #E2E2E2;
 }
 
 body {
   font-family: 'Neue Montreal', sans-serif;
   font-weight: 400;
-  margin: 24px 20px;
-  color: var(--text-primary);
-  background-color: var(--bg-primary);
+  color: var(--color-ink);
+  background-color: var(--color-canvas);
 }
 

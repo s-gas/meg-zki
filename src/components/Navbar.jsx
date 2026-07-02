@@ -1,13 +1,12 @@
 import { useState, useEffect } from 'react'
-import './Navbar.css'
 import ButtonScrollTop from './ButtonScrollTop'
 import ButtonGif from './ButtonGif'
 
 const Info = () => {
   return (
-    <div className="info">
-      <ButtonScrollTop className="name" text="MEG KRAWIELITZKI" />
-      <p className="profession">Digital Designer</p>
+    <div>
+      <ButtonScrollTop text="MEG KRAWIELITZKI" />
+      <p>Digital Designer</p>
     </div>
   )
 }
@@ -31,9 +30,9 @@ const Time = () => {
   });
 
   return (
-    <div className="time-country">
-      <p className="time">{timeString}</p>
-      <p className="country">[DE]</p>
+    <div>
+      <p>{timeString}</p>
+      <p>[DE]</p>
     </div>
   )
 }
@@ -41,8 +40,8 @@ const Time = () => {
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <div className="info-time">
+    <div>
+      <div>
         <Info />
         <Time />
       </div>

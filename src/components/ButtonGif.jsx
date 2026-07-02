@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import './Button.css'
 
 const StarSvg = ({style}) => {
   return (
@@ -23,7 +22,7 @@ const ButtonGif = () => {
   }, []);
 
   return (
-    <button className="button">
+    <button>
       <StarSvg style={{ transform: `rotate(${rotation}deg)` }}/>
     </button>
   );

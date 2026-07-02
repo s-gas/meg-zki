@@ -1,10 +1,8 @@
-import './Name.css'
-
 const Name = () => {
   return (
-    <span className="name-hover">
+    <span>
       Meg
-      <img className="image-hover" src="/images/mk.jpg" alt="" />
+      <img src="/images/mk.jpg" alt="" />
     </span>
   )
 }
