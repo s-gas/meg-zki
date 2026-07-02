@@ -47,12 +47,14 @@
   --color-muted: #888888;     
   --color-ink-hover: #5A5A5A; 
   --color-canvas: #E2E2E2;
+
+  --font-tiempos: 'Tiempos Headline', sans-serif;
+  --font-neue: 'Neue Montreal', serif;
 }
 
 body {
-  font-family: 'Neue Montreal', sans-serif;
+  font-family: var(--font-serif);
   font-weight: 400;
   color: var(--color-ink);
   background-color: var(--color-canvas);
 }
-

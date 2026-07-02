@@ -1,52 +1,16 @@
-import { useState, useEffect } from 'react'
-import ButtonScrollTop from './ButtonScrollTop'
 import ButtonGif from './ButtonGif'
-
-const Info = () => {
-  return (
-    <div>
-      <ButtonScrollTop text="MEG KRAWIELITZKI" />
-      <p>Digital Designer</p>
-    </div>
-  )
-}
-
-const Time = () => {
-  const [time, setTime] = useState(new Date());
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTime(new Date())
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  const timeString = time.toLocaleTimeString([], {
-    hour12: false,
-    hour: "2-digit",
-    minute: "2-digit",
-    second: "2-digit"
-  });
-
-  return (
-    <div>
-      <p>{timeString}</p>
-      <p>[DE]</p>
-    </div>
-  )
-}
-
+import Info from './Info'
+import Time from './Time'
 
 const Navbar = () => {
   return (
-    <div>
-      <div>
+    <nav className="fixed z-50 top-0 left-0 right-0 flex justify-between pt-5 px-6 font-tiempos font-light">
+      <div className="flex justify-between gap-48">
         <Info />
         <Time />
       </div>
       <ButtonGif /> 
-    </div>
+    </nav>
   )
 }
 

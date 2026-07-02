@@ -17,7 +17,7 @@ const ButtonScrollTop = (props) => {
     )
   }
   return (
-    <button onClick={handleScrollTop}>{text}</button>
+    <button className="cursor-pointer" onClick={handleScrollTop}>{text}</button>
   )
 }
 
