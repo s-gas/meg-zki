@@ -9,13 +9,6 @@
 
 @font-face {
   font-family: 'Neue Montreal';
-  src: url('/fonts/NeueMontreal/PPNeueMontreal-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Neue Montreal';
   src: url('/fonts/NeueMontreal/PPNeueMontreal-Semibold.otf') format('opentype');
   font-weight: 600;
   font-style: normal;
@@ -44,7 +37,6 @@
 
 @theme {
   --color-ink: #0A0A0A;       
-  --color-muted: #888888;     
   --color-ink-hover: #5A5A5A; 
   --color-canvas: #E2E2E2;
 

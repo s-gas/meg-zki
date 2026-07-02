@@ -1,4 +1,6 @@
 import Link from './Link'
+import SectionHeader from './SectionHeader'
+import SectionFooter from './SectionFooter'
 
 const Awards = () => {
   const awards = [
@@ -37,15 +39,15 @@ const Awards = () => {
   ];
 
   return (
-    <div>
-      <p>(AWARDS)</p>
+    <>
+      <SectionHeader>(AWARDS)</SectionHeader>
       <div>
-        { awards.map((award) => (
-          <div><Link key={award.link} text={award.text} link={award.link} arrow="true"/></div>
+        { awards.map((award, i) => (
+          <div key={i}><Link text={award.text} link={award.link} arrow="true"/></div>
         ))}
       </div>
-      <p>All awards were earned during my time  working in-house and represent the collective achievements of a whole team (˶ᵔ ᵕ ᵔ˶)</p>
-    </div>
+      <SectionFooter>All awards were earned during my time working in-house and represent the collective achievement of an entire team (˶ᵔ ᵕ ᵔ˶)</SectionFooter>
+    </>
   )
 }
 

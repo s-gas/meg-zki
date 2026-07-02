@@ -8,7 +8,7 @@ function App() {
     <div className="px-6 py-5">
       <Navbar />
       <Main/>
-      {/*<Sections />*/}
+      <Sections />
       {/*<Footer />*/}
     </div>
   )

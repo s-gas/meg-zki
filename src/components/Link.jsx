@@ -2,12 +2,12 @@ const Link = (props) => {
   const {text, link, arrow} = props;
   if (!arrow) {
     return (
-      <a href={link} target="_blank" rel="noopener noreferrer">{text}</a>
+      <a className="hover:text-ink-hover underline underline-offset-4 decoration-ink/30" href={link} target="_blank" rel="noopener noreferrer">{text}</a>
     )
   }
   return (
-    <div>
-      <a href={link} target="_blank" rel="noopener noreferrer">{text}</a>
+    <div className="flex items-center gap-1">
+      <a className="hover:text-ink-hover underline underline-offset-4 decoration-ink/30" href={link} target="_blank" rel="noopener noreferrer">{text}</a>
       <svg width="9" height="9" viewBox="0 0 9 9" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path d="M8.432 6.112L7.264 6.16L7.152 2.08L0.784 8.432L0 7.648L6.352 1.296L2.272 1.168L2.32 0L8.208 0.224L8.432 6.112Z" />
       </svg>
