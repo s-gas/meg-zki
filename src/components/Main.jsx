@@ -1,8 +1,10 @@
+import SerifItalic from './SerifItalic'
+
 const Main = () => {
   return (
-    <main>
-      <p>Berlin-based digital designer creating <span>human-centred</span> experiences that blend <span>form</span> and <span>functionality</span>.</p>
-      <p>With expertise in <span>creative concepting</span>, <span>user interface design</span>, and <span>visual identities</span>, taking ideas from concept right through to production.</p>
+    <main className="mt-100 text-8xl font-medium leading-none text-trim">
+      <p>Berlin-based digital designer creating <SerifItalic>human-centred</SerifItalic> experiences that blend <SerifItalic>form</SerifItalic> and <SerifItalic>functionality</SerifItalic>.</p>
+      <p>With expertise in <SerifItalic>creative concepting</SerifItalic>, <SerifItalic>user interface design</SerifItalic>, and <SerifItalic>visual identities</SerifItalic>, taking ideas from concept right through to production.</p>
     </main>
   )
 }

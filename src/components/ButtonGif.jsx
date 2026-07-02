@@ -22,7 +22,7 @@ const ButtonGif = () => {
   }, []);
 
   return (
-    <button>
+    <button className="hover:text-ink-hover cursor-pointer">
       <StarSvg style={{ transform: `rotate(${rotation}deg)` }}/>
     </button>
   );

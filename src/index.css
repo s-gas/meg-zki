@@ -30,14 +30,14 @@
 
 @font-face {
   font-family: 'Tiempos Headline';
-  src: url('fonts/TiemposHeadline/TestTiemposHeadline-Light.otf') format('opentype');
+  src: url('/fonts/TiemposHeadline/TestTiemposHeadline-Light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Tiempos Headline';
-  src: url('fonts/TiemposHeadline/TestTiemposHeadline-LightItalic.otf') format('opentype');
+  src: url('/fonts/TiemposHeadline/TestTiemposHeadline-LightItalic.otf') format('opentype');
   font-weight: 300;
   font-style: italic;
 }
@@ -48,12 +48,12 @@
   --color-ink-hover: #5A5A5A; 
   --color-canvas: #E2E2E2;
 
-  --font-tiempos: 'Tiempos Headline', sans-serif;
-  --font-neue: 'Neue Montreal', serif;
+  --font-tiempos: 'Tiempos Headline', serif;
+  --font-neue: 'Neue Montreal', sans-serif;
 }
 
 body {
-  font-family: var(--font-serif);
+  font-family: var(--font-neue);
   font-weight: 400;
   color: var(--color-ink);
   background-color: var(--color-canvas);

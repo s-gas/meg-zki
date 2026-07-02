@@ -5,12 +5,12 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <>
+    <div className="px-6 py-5">
       <Navbar />
-      {/*<Main/>*/}
+      <Main/>
       {/*<Sections />*/}
       {/*<Footer />*/}
-    </>
+    </div>
   )
 }
 
