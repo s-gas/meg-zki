@@ -14,9 +14,9 @@ const Name = () => {
   }
 
   return (
-    <span className="relative underline" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
+    <span className="underline relative" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
       Meg
-      <img className={`absolute ${image ? "opacity-100" : "opacity-0 pointer-events-none"}`} src="/images/mk.jpg" alt="" />
+      <img className={`absolute -top-20 left-28 max-w-none w-70 ${image ? "opacity-100" : "opacity-0 pointer-events-none"}`} src="/images/mk.jpg" alt="" />
     </span>
   )
 }
