@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import Navbar from './components/Navbar'
 import Gif from './components/Gif'
 import Main from './components/Main'
@@ -20,6 +21,7 @@ function App() {
         <Sections />
         <Footer />
         <Analytics />
+        <SpeedInsights />
       </div>
     </>
   )
