@@ -6,5 +6,3 @@
 Portfolio website for a digital designer.
 
 Built using React + JavaScript and styled with Tailwind CSS.
-
-WIP
