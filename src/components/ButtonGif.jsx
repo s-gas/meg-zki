@@ -9,7 +9,7 @@ const StarSvg = ({style}) => {
   )
 }
 
-const ButtonGif = () => {
+const ButtonGif = ({setGifOpacity}) => {
   const [rotation, setRotation] = useState(0);
 
   const handleScroll = () => {
@@ -23,7 +23,12 @@ const ButtonGif = () => {
   }, []);
 
   return (
-    <button className="hover:text-ink-hover cursor-pointer" onClick={() => backToTop()}>
+    <button 
+      className="hover:text-ink-hover cursor-pointer"
+      onClick={() => backToTop()}
+      onMouseEnter={() => setGifOpacity(100)}
+      onMouseLeave={() => setGifOpacity(0)}
+    >
       <StarSvg style={{ transform: `rotate(${rotation}deg)` }}/>
     </button>
   );
