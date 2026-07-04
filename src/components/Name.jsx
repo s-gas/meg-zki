@@ -4,12 +4,10 @@ const Name = () => {
   const [image, setImage] = useState(false);
 
   const handleEnter = () => {
-    console.log("enter");
     setImage(true);
   }
 
   const handleLeave = () => {
-    console.log("leave");
     setImage(false);
   }
 

@@ -7,14 +7,14 @@ import Footer from './components/Footer'
 function App() {
   const [opacity, setOpacity] = useState(0);
 
-  const opacityLevel = `opacity-${opacity}`
+  const opacityLevel = opacity === 100 ? "opacity-100" : "opacity-0 pointer-events-none";
   
   return (
     <>
       <div className="fixed inset-0 -z-10 bg-[linear-gradient(to_bottom,var(--color-canvas)_0%,var(--color-canvas)_60%,var(--color-accent)_100%)]">
       </div>
-      <div className={`fixed inset-0 z-10 ${opacityLevel}`}>
-        <img src="/images/mk.gif" />
+      <div className={`fixed inset-0 z-10 ${opacityLevel} flex items-center justify-center`}>
+        <img src="/images/mk.gif" className="w-1/2"/>
       </div>
       <div className="px-6 py-5">
         <Navbar setGifOpacity={setOpacity}/>
