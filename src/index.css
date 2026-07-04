@@ -52,10 +52,23 @@ body {
   background-color: var(--color-canvas);
 }
 
-.text-stroke {
+@utility text-stroke-l {
+  -webkit-text-stroke: 2px currentColor;
+}
+
+@utility text-stroke-m {
   -webkit-text-stroke: 1.4px currentColor;
 }
 
-.no-text-stroke {
+@utility text-stroke-s {
+  -webkit-text-stroke: 1px currentColor;
+}
+
+@utility text-stoke-xs {
+  -webkit-text-stroke: 0.6px currentColor;
+}
+
+
+@utility no-text-stroke {
   -webkit-text-stroke: 0px currentColor;
 }
