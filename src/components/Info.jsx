@@ -1,9 +1,9 @@
-import ButtonScrollTop from './ButtonScrollTop'
+import ButtonLogo from './ButtonLogo'
 
 const Info = () => {
   return (
     <div className="flex flex-col">
-      <ButtonScrollTop text="MEG KRAWIELITZKI" />
+      <ButtonLogo>MEG KRAWIELITZKI</ButtonLogo>
       <p className="italic text-ink/50">Digital Designer</p>
     </div>
   )

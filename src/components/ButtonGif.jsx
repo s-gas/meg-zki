@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import backToTop from '../utils/backToTop'
 
 const StarSvg = ({style}) => {
   return (
@@ -15,11 +16,6 @@ const ButtonGif = () => {
     setRotation(window.scrollY * 0.2);
   }
 
-  const handleClick = () => {
-    window.scrollTo({top: 0});
-    setRotation(0);
-  }
-
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
 
@@ -27,7 +23,7 @@ const ButtonGif = () => {
   }, []);
 
   return (
-    <button className="hover:text-ink-hover cursor-pointer" onClick={handleClick}>
+    <button className="hover:text-ink-hover cursor-pointer" onClick={() => backToTop()}>
       <StarSvg style={{ transform: `rotate(${rotation}deg)` }}/>
     </button>
   );

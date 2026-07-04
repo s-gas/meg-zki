@@ -1,6 +1,6 @@
 const SectionHeader = ({children}) => {
   return (
-    <h2 className="text-base font-tiempos italic">
+    <h2 className="text-base font-tiempos italic text-light">
       {children}
     </h2>
   )
