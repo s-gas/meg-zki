@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from "@vercel/analytics/react"
 import Navbar from './components/Navbar'
 import Gif from './components/Gif'
 import Main from './components/Main'
@@ -18,6 +19,7 @@ function App() {
         <Main />
         <Sections />
         <Footer />
+        <Analytics />
       </div>
     </>
   )
