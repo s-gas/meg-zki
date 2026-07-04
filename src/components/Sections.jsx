@@ -5,14 +5,14 @@ import SayHi from './SayHi'
 
 const Sections = () => {
   return (
-    <div className="flex justify-between mt-68">
+    <div className="flex flex-col gap-20 lg:flex-row lg:gap-2 justify-between mt-20 md:mt-40 lg:mt-68">
       <Section>
         <About />
       </Section>
       <Section>
         <Awards />
       </Section>
-      <Section>
+      <Section size="small">
         <SayHi />
       </Section>
     </div>

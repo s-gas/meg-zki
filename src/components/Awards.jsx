@@ -41,7 +41,7 @@ const Awards = () => {
   return (
     <>
       <SectionHeader>(AWARDS)</SectionHeader>
-      <div>
+      <div className="flex flex-col gap-3 lg:gap-1">
         { awards.map((award, i) => (
           <div key={i}><Link text={award.text} link={award.link} arrow="true"/></div>
         ))}
