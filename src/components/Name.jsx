@@ -9,7 +9,7 @@ const Name = ({setPortraitVisible}) => {
   }
 
   return (
-    <span className="underline" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
+    <span className="underline underline-offset-2 decoration-ink/30" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
       Meg
     </span>
   )
