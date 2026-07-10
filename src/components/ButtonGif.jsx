@@ -28,6 +28,7 @@ const ButtonGif = ({setGifVisible}) => {
       onClick={() => backToTop()}
       onMouseEnter={() => setGifVisible(true)}
       onMouseLeave={() => setGifVisible(false)}
+      aria-label="Scroll to top"
     >
       <StarSvg style={{ transform: `rotate(${rotation}deg)` }}/>
     </button>
